@@ -6,9 +6,6 @@ h1 {
 }
 
 
-
-
-
 /* ------------  NAVBAR  -------------*/
 .navbar-default {
     background-color: #4aaaa5;
@@ -39,11 +36,6 @@ h1 {
 }
 
 
-
-
-
-
-
 /* ------------  CORE STRUCTURE  -------------*/
 .page-header {
     padding-bottom: 9px;
@@ -71,44 +63,32 @@ p {
 }
 
 
-
-
-
-
-
 /* ------------  PORTFOLIO MAIN  -------------*/
-.picLabel {
-    background: #4aaaa5;
-    color: #ffffff;
-    width: 360px;
-    height: 60px;
+.thumbnail {
+    width: 100%;
+}
+.thumbnail a {
+    text-decoration: none;
+}
+.thumbnail a:hover {
+    color: orange;
+}
+.caption {
     text-align: center;
-    font-weight: 100;
-    padding: 15px 0;
-    position: absolute;
-    top: 65%;
-    left: 0%;
 }
-.picLabel:hover {
-    background: orange;
+.caption h3 {
+    font-weight: 200;
+    color: dimgray;
 }
-
-
-
-
-
+.caption h3:hover {
+    color: orange;
+}
 
 
 /* ------------  CONTACT MAIN  -------------*/
 .form-control {
     width: 90%;
 }
-
-
-
-
-
-
 
 
 /* ------------  FOOTER SECTION  -------------*/
@@ -131,28 +111,22 @@ footer p {
 }
 
 
-
-
-
 /* ------------  MEDIA QUERIES  -------------*/
 @media (max-width: 767px) {
     .img-responsive {
-        max-width: 90%;
+        max-width: 94%;
         float: left;
-        margin: 0 20px 0 20px;
-    }
-    p {
-        margin: 0 20px;
-        max-width: 90%;
+        margin: 0 10px 20px 20px;
     }
     .panel {
         width: 100%;
         margin: 20px 0 100px 0;
     }
-    .userPic {
-        margin-bottom: 20px;
+    p {
+        clear: both;
+        width: 94%;
+        margin: 10px 0px 0 20px;
     }
-    
 }
 @media (min-width: 768px) {
     .img-responsive {
@@ -167,14 +141,7 @@ footer p {
         width: 100%;
         margin: 20px 0 100px 0;
     }
-    .picLabel {
-        width: 335px;
-        height: 51px;
-        padding: 15px 0;
-        top: 70%;
-    }
-    
-
+}
 @media (min-width: 992px) {
     .img-responsive {
         max-width: 40%;
@@ -188,13 +155,6 @@ footer p {
         width: 100%;
         margin: 20px 0 100px 0;
     }
-    .picLabel {
-        width: 445px;
-        height: 55px;
-        padding: 15px 0;
-        top: 75%;
-    }
- 
 }
 @media (min-width: 1200px) {
     .img-responsive {
@@ -205,10 +165,6 @@ footer p {
     .panel {
         width: 220px;
         margin: 0;
-    }
-    .picLabel {
-        width: 399px;
-        top: 65%
     }
     .clear {
         height: 100px;
