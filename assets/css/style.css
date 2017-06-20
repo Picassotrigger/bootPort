@@ -1,0 +1,218 @@
+body {
+    background-image: url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/foil.png);
+}
+h1 {
+    font-weight: 300;
+}
+
+
+
+
+
+/* ------------  NAVBAR  -------------*/
+.navbar-default {
+    background-color: #4aaaa5;
+    border: 0;
+}
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 2.3em;
+    font-weight: 200;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: orange;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+/* ------------  CORE STRUCTURE  -------------*/
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px 20px;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+p {
+    text-align: justify;
+}
+
+.socIcon {
+    height: 50px;
+    width: auto;
+    padding: 0 12px 0 0;
+    float: left;
+}
+
+.panel {
+    width: 220px;
+}
+
+.panel-title {
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+/* ------------  PORTFOLIO MAIN  -------------*/
+.picLabel {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 360px;
+    height: 60px;
+    text-align: center;
+    font-weight: 100;
+    padding: 15px 0;
+    position: absolute;
+    top: 65%;
+    left: 0%;
+}
+.picLabel:hover {
+    background: orange;
+}
+
+
+
+
+
+
+
+/* ------------  CONTACT MAIN  -------------*/
+.form-control {
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+/* ------------  FOOTER SECTION  -------------*/
+footer {
+    background: #666666;
+    clear: both;
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    text-align: center;
+    border-top: 6px solid #4aaaa5;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+footer p {
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+
+/* ------------  MEDIA QUERIES  -------------*/
+@media (max-width: 767px) {
+    .img-responsive {
+        max-width: 90%;
+        float: left;
+        margin: 0 20px 0 20px;
+    }
+    p {
+        margin: 0 20px;
+        max-width: 90%;
+    }
+    .panel {
+        width: 100%;
+        margin: 20px 0 100px 0;
+    }
+    .userPic {
+        margin-bottom: 20px;
+    }
+    
+}
+@media (min-width: 768px) {
+    .img-responsive {
+        max-width: 40%;
+        float: left;
+        margin: 0 20px 0 20px;
+    }
+    p {
+        margin: 0 20px;
+    }
+    .panel {
+        width: 100%;
+        margin: 20px 0 100px 0;
+    }
+    .picLabel {
+        width: 335px;
+        height: 51px;
+        padding: 15px 0;
+        top: 70%;
+    }
+    
+
+@media (min-width: 992px) {
+    .img-responsive {
+        max-width: 40%;
+        float: left;
+        margin: 0 20px 20ps 20px;
+    }
+    p {
+        margin: 0 20px;
+    }
+    .panel {
+        width: 100%;
+        margin: 20px 0 100px 0;
+    }
+    .picLabel {
+        width: 445px;
+        height: 55px;
+        padding: 15px 0;
+        top: 75%;
+    }
+ 
+}
+@media (min-width: 1200px) {
+    .img-responsive {
+        max-width: 40%;
+        float: left;
+        margin: 0 20px 20px 20px;
+    }
+    .panel {
+        width: 220px;
+        margin: 0;
+    }
+    .picLabel {
+        width: 399px;
+        top: 65%
+    }
+    .clear {
+        height: 100px;
+        widows: 100%;
+        background-color: transparent;
+    }
+}
